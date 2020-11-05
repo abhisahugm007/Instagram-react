@@ -6,15 +6,7 @@
   background-color: #fafafa;
 }
 
-.app_posts {
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-}
-.app_postRight {
-  margin-left: 20px;
-}
-.app_header {
+.app__header {
   position: sticky;
   top: 0;
   z-index: 1;
@@ -26,11 +18,26 @@
   justify-content: space-between;
 }
 
-.app_headerImage {
+.app__headerImage {
   object-fit: contain;
 }
 
-.app_signup {
+.app__signup {
   display: flex;
   flex-direction: column;
+}
+
+.app__signin {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__posts {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 10px 30px;
+}
+.app__postsRight {
+  margin-left: 10px;
 }
